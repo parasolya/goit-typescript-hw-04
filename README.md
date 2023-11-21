@@ -66,6 +66,7 @@ Action: Це тип, що представляє можливі дії, які �
 ```ts
 import React, { useReducer } from "react";
 
+
 const initialState: State = {
   isRequestInProgress: false,
   requestStep: "idle",
